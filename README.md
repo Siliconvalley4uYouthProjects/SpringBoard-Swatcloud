@@ -13,22 +13,23 @@ Issues encountered in scraping:</li>
 <li>In most cases, the html file format is inconsistent within the same company’s website among different job positions. This is especially seen on the job descriptions pages. So we need to handle them with different codes.</li>
 <li>Sometimes non-English postings are seen in the job listings. We tried to manually detect  and remove them.</li>
 <li>After we scrape the data, sometimes we notice identical job titles and job descriptions posted several times. Therefore, we remove duplicates at the end. We also perform any major cleaning as needed before we add the new data to the existing data.</li>
-
+</ul></br>
 <span>So far, job data is scraped from:</span>
-
-1. Amazon, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention
-2. Google, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention
-3. Microsoft, SW Engineer, Reusable, no human intervention
-4. Meta, SW Engineer, Data Science / Data Analytics, Marketing, Have to login to see job display
-5. Tesla, SW Engineer, Marketing, Only load 53 jobs, have to scroll down to load more data (no button click)
-6. JnJ, Data Science / Data Analytics
-7. Deloitte, Marketing, Jobs are not listed on separate pages. Currently we manually click ‘view more” button and save the html
-8. KPMG, Marketing, Reusable, no human intervention
-9. Visa, Marketing, Need to click ‘load more’ button
-10. Dell, SW Engineer, Data Science / Data Analytics, Marketing
-11. Walmart, SW Engineer, Data Science / Data Analytics, Marketing
-12. Cisco, SW Engineer, Data Science / Data Analytics, Marketing
-13. Infosys, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention
+<ol>
+<li>Amazon, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
+<li>Google, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
+<li>Microsoft, SW Engineer, Reusable, no human intervention</li>
+<li>Meta, SW Engineer, Data Science / Data Analytics, Marketing, Have to login to see job display</li>
+<li>Tesla, SW Engineer, Marketing, Only load 53 jobs, have to scroll down to load more data (no button click)</li>
+<li>JnJ, Data Science / Data Analytics</li>
+<li>Deloitte, Marketing, Jobs are not listed on separate pages. Currently we manually click ‘view more” button and save the html</li>
+<li>KPMG, Marketing, Reusable, no human intervention</li>
+<li>Visa, Marketing, Need to click ‘load more’ button</li>
+<li>Dell, SW Engineer, Data Science / Data Analytics, Marketing</li>
+<li>Walmart, SW Engineer, Data Science / Data Analytics, Marketing</li>
+<li>Cisco, SW Engineer, Data Science / Data Analytics, Marketing</li>
+<li>Infosys, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
+  </ol>
 
 
 <h3>Model with keywords matching:</h3>
