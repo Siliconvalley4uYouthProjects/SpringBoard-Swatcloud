@@ -14,7 +14,8 @@ Issues encountered in scraping:</li>
 <li>Sometimes non-English postings are seen in the job listings. We tried to manually detect  and remove them.</li>
 <li>After we scrape the data, sometimes we notice identical job titles and job descriptions posted several times. Therefore, we remove duplicates at the end. We also perform any major cleaning as needed before we add the new data to the existing data.</li>
 </ul></br>
-<span>So far, job data is scraped from:</span></br>
+<span>So far, job data is scraped from:</span>
+</br>
 <ol>
 <li>Amazon, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
 <li>Google, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
