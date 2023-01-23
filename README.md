@@ -30,6 +30,7 @@ Issues encountered in scraping:</li>
 <li>Walmart, SW Engineer, Data Science / Data Analytics, Marketing</li>
 <li>Cisco, SW Engineer, Data Science / Data Analytics, Marketing</li>
 <li>Infosys, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
+<li>Collabera, all jobs, Reusable, no human intervention<li>
   </ol>
 
 
