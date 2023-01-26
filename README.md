@@ -34,7 +34,7 @@ Issues encountered in scraping:</li>
   </ol>
 
 
-<h3>Model with keywords matching:</h3>
+<h3>Recommendation Model Part 1 - Cosine Similarity:</h3>
 
 
-<h3>Model with description cosine similarity:</h3>
+<h3>Recommendation Model Part 2 - Tensorflow Keras:</h3>
