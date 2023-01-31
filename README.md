@@ -33,6 +33,12 @@ Issues encountered in scraping:</li>
 <li>Collabera, all jobs, Reusable, no human intervention</li>
   </ol>
 
+<h3>FORMATTING FOR EACH CSV FILE IS AS FOLLOWS:</h3>
+<li>Column 1: Company</li>
+<li>Column 2: Job Title</li>
+<li>Column 3: Qualifications</li>
+<li>Column 4: Job Link URL</li>
+<li>Column 5: Job Description</li>
 
 <h3>Recommendation Model Part 1 - Cosine Similarity:</h3>
 
