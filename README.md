@@ -17,20 +17,24 @@ Issues encountered in scraping:</li>
 <span>So far, job data is scraped from:</span>
 </br>
 <ol>
-<li>Amazon, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
-<li>Google, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
-<li>Microsoft, SW Engineer, Reusable, no human intervention</li>
-<li>Meta, SW Engineer, Data Science / Data Analytics, Marketing, Have to login to see job display</li>
-<li>Tesla, SW Engineer, Marketing, Only load 53 jobs, have to scroll down to load more data (no button click)</li>
-<li>JnJ, Data Science / Data Analytics</li>
-<li>Deloitte, Marketing, Jobs are not listed on separate pages. Currently we manually click ‘view more” button and save the html</li>
-<li>KPMG, Marketing, Reusable, no human intervention</li>
-<li>Visa, Marketing, Need to click ‘load more’ button</li>
+<li>Amazon, all jobs, Reusable, no human intervention</li>
+<li>Google, all jobs, Reusable, no human intervention</li>
+<li>Microsoft, all jobs, Reusable, no human intervention</li>
+<li>Meta, Have to login to see job display (need more work)</li>
+<li>Tesla, Have to scroll down to load more data (no button click, need more work)</li>
+<li>JnJ, all jobs, Reusable, no human intervention</li>
+<li>Deloitte, all jobs, Reusable, no human intervention</li>
+<li>KPMG, all jobs, Reusable, no human intervention</li>
+<li>Accenture, all jobs, Reusable, no human intervention</li>
 <li>Dell, SW Engineer, Data Science / Data Analytics, Marketing</li>
 <li>Walmart, SW Engineer, Data Science / Data Analytics, Marketing</li>
 <li>Cisco, SW Engineer, Data Science / Data Analytics, Marketing</li>
 <li>Infosys, SW Engineer, Data Science / Data Analytics, Marketing, Reusable, no human intervention</li>
 <li>Collabera, all jobs, Reusable, no human intervention</li>
+<li>IBM, all jobs, Reusable, no human intervention</li>
+<li>Texas Instruments, all jobs, Reusable, no human intervention</li>
+<li>Oracle, all jobs, Reusable, no human intervention</li>
+<li>HP, all jobs, Reusable, no human intervention</li>
   </ol>
 
 <h3>FORMATTING FOR EACH CSV FILE IS AS FOLLOWS:</h3>
