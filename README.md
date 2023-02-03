@@ -36,7 +36,7 @@ Issues encountered in scraping:</li>
 <li>Oracle, all jobs, Reusable, no human intervention</li>
 <li>HP, all jobs, Reusable, no human intervention</li>
 <li>Intel, all jobs, Reusable, no human intervention</li>
-<li>Expedia, all USA jobs, Reusable, no human intervention<li>
+<li>Expedia, all USA jobs, Reusable, no human intervention</li>
   </ol>
 
 <h3>FORMATTING FOR EACH CSV FILE IS AS FOLLOWS:</h3>
