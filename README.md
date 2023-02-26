@@ -48,6 +48,13 @@ Issues encountered in scraping:</li>
 <li>Column 5: Job Description</li>
 
 <h3>Recommendation Model Part 1 - Cosine Similarity:</h3>
+<li>This model works by taking all of the job descriptions and converting them into a matrix of word tokens using Sklearn's CountVectorizer. A user then provides some input (e.g. user's resume and/or list of technical skills) and the model calculates the cosine similarity between the input and all of the job descriptions. The top scoring matches are then recommended to the user along with their respective descriptions and a qualitative indicator of the degree of similarity. </li>
 
 
-<h3>Recommendation Model Part 2 - Tensorflow Keras:</h3>
+<h3>Recommendation Model Part 2a - Data Preprocessing (Industry Labeling):</h3>
+<li>For the second model, we first begin by assigning industry labels to all of the job descriptions. The methodology for doing so is as such: </li>
+<li> Step 1: A CountVectorizer is created and then the most common words/phrases are identified from the list of job titles </li>
+<li> Step 2: These common keywords/phrases are assigned to selected industry labels and then the model runs through each job posting looking to assign an industry label to each posting based on the keyword that shows up the most (first prioritizing the job title and then if no matches are found it moves on to identify keywords in the job descriptions) </li>
+
+<h3>Recommendation Model Part 2b - NLP Model:</h3>
+<li>This model is built using Keras to train an NLP model from our job posting dataset wherein the model learns how to recognize the industry labels we assigned from the data preprocessing stage based on the job descriptions we provide for each of these industries. This model has an approximate testing accuracy of ~71% and has plenty of room to improve (an immediate area for improvement is the industry labeling: more industries can be added/taken away and the delineation between various industries is always subject to clearer definition). Once trained, this model then takes user inputs and presents a "closeness match" on a percentage scale.  </li>
