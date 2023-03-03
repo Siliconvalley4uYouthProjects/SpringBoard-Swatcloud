@@ -1,7 +1,7 @@
 <h1># SpringBoard-Swatcloud</h1>
 
 <h3>Data Collection:</h3>
-
+<p>All scraping is done by one notebook called 'web_scraper_master_script.ipynb'. The original scraping notebooks for individual companies are under "web_scraping" folder.</p>
 <p>Data scraping is not allowed by job searching websites such as Indeed and LinkedIn. Therefore our main job description data source is the careers website from each individual company.</p>
 <p>Data scraping using BeautifulSoup is an efficient way to download jobs data from various company careers websites and was the main tool used in this project. But sometimes Selenium was used when we couldn’t effectively use BeautifulSoup on a particular website.</p>
 <p>Here is how the job data scraping process works:</p>
