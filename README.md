@@ -20,8 +20,6 @@ Issues encountered in scraping:</li>
 <li>Amazon, all jobs, Reusable, no human intervention</li>
 <li>Google, all jobs, Reusable, no human intervention</li>
 <li>Microsoft, all jobs, Reusable, no human intervention</li>
-<li>Meta, Have to login to see job display (need more work)</li>
-<li>Tesla, Have to scroll down to load more data (no button click, need more work)</li>
 <li>JnJ, all jobs, Reusable, no human intervention</li>
 <li>Deloitte, all jobs, Reusable, no human intervention</li>
 <li>KPMG, all jobs, Reusable, no human intervention</li>
@@ -38,6 +36,10 @@ Issues encountered in scraping:</li>
 <li>Intel, all jobs, Reusable, no human intervention</li>
 <li>Expedia, all USA jobs, Reusable, no human intervention</li>
 <li>State Farm, all jobs, Reusable, no human intervention</li>
+<li>Fox News, all jobs, Reusable, no human intervention</li>
+<li>Apple, all jobs, Reusable, no human intervention</li>
+<li>Vistra, all jobs, Reusable, no human intervention</li>  
+<li>Vizient, all jobs, Reusable, no human intervention</li>  
   </ol>
 
 <h3>FORMATTING FOR EACH CSV FILE IS AS FOLLOWS:</h3>
